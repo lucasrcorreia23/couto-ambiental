@@ -1,0 +1,9 @@
+# Dependências
+node_modules/
+
+# Cache do Next.js
+.next/
+
+# Outras pastas/arquivos temporários
+.env
+.DS_Store
