@@ -1,9 +1,9 @@
 {
-    "title": "Interested in Our <span class=\"mil-marker\">Work?</span>",
-    "subtitle": "Your Idea",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Interessado em nossas <span class=\"mil-marker\">soluções?</span>",
+    "subtitle": "Solicite um orçamento",
+    "description": " Precisa de uma solução personalizada para o seu espaço? Nossa equipe especializada está pronta para ajudar você a manter seu ambiente seguro, limpo e saudável.",
     "button": {
-        "label": "Let's Talk Now",
+        "label": "Fale conosco",
         "link": "/contact"
     }
 }
