@@ -1,0 +1,108 @@
+{
+    "settings": {
+        "siteName": "Couto",
+        "siteDescription": "Higienização completa e proteção duradoura contra alérgenos e manchas indesejadas",
+        "formspreeURL": "",
+        "mailchimp": {
+            "url": "",
+            "key": ""
+        },
+        "perPage": 6
+    },
+    "header": {
+        "logo": {
+            "image": "/img/logo/couto.png",
+            "alt": "Logotipo Couto"
+        },
+        "menu": [
+            {
+                "label": "Home",
+                "link": "/",
+                "children": [
+                    
+                ]
+            },
+            {
+                "label": "Serviços",
+                "link": "/services",
+                "children": [                    
+                ]
+            },            
+           
+            {
+                "label": "Contato",
+                "link": "/contact",
+                "children": 0
+            }
+            
+        ]
+    },
+    "footer": {
+        "logo": {
+            "image": "/img/logo/couto.png",
+            "alt": "Logo"
+        },
+        "copy": "© 2024 Couto Saúde Ambiental. Todos os direitos reservados.",
+        "menu": [
+            {
+                "label": "Home",
+                "link": "/"
+            },
+            {
+                "label": "Serviços",
+                "link": "/services"
+            },            
+            {
+                "label": "Contato",
+                "link": "/contact"
+            }
+        ]
+    },
+    "social": [
+        {
+            "link": "https://www.facebook.com/coutoimunizadora",
+            "title": "Facebook"
+        },       
+        {
+            "link": "https://www.instagram.com/coutosaudeambiental/",
+            "title": "Instagram"
+        }
+       
+    ],
+    "projects": {
+        "categories": [
+            {
+                "name": "Architecture",
+                "slug": "architecture"
+            },
+            {
+                "name": "Interior",
+                "slug": "interior"
+            },
+            {
+                "name": "Decor",
+                "slug": "decor"
+            }
+        ]
+    },
+    "team": {
+        "categories": [
+            {
+                "name": "Executive",
+                "slug": "executive"
+            },
+            {
+                "name": "Data centers",
+                "slug": "data-centers"
+            },
+            {
+                "name": "Education",
+                "slug": "education"
+            },
+            {
+                "name": "Workplace",
+                "slug": "workplace"
+            }
+        ]
+    }
+}

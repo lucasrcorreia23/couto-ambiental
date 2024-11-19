@@ -1,0 +1,19 @@
+{
+    "items": [
+        {
+            "image": "/img/icons/5.svg",
+            "title": "Prevenção",
+            "text": " Controle e eliminação de pragas para evitar danos e infestações."
+        },
+        {
+            "image": "img/icons/5.svg",
+            "title": "Segurança",
+            "text": "Produtos regulamentados e aplicação especializada para sua proteção."
+        },
+        {
+            "image": "img/icons/5.svg",
+            "title": "Saúde",
+            "text": "Redução de doenças associadas a pragas no ambiente."
+        }
+    ]
+}

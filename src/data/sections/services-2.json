@@ -1,0 +1,21 @@
+{
+    "title": "Por que parar no controle de pragas",
+    "description": "Com a Couto você se livra das pragas urbanas e mantém a sua casa higienizada!",
+    "items": [
+        {
+            "title": "Estofados",
+            "text": "Proteja sua saúde com estofados livres de impurezas. Nossa higienização elimina microrganismos, garantindo um ambiente mais seguro para você e sua família.",
+            "link": "/contact"
+        },
+        {
+            "title": "Colchões",
+            "text": "Durma tranquilo com colchões higienizados. Eliminamos ácaros e bactérias para um sono saudável e um ambiente livre de agentes alérgenos.",
+            "link": "/contact"
+        },
+        {
+            "title": "Impermeabilização",
+            "text": "Dê vida longa ao seu estofado! A impermeabilização evita manchas e facilita a limpeza, preservando sua saúde e o conforto do seu espaço.",
+            "link": "/contact"
+        }
+    ]
+}
