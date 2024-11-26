@@ -3,7 +3,7 @@
 title: "Higienização de Colchões"
 icon: "/img/icons/5.svg"
 short: "Durma melhor com colchões higienizados e protegidos contra ácaros e alérgenos"
-
+link: "two"
 #full details
 description:
   - layout: 1

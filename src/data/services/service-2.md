@@ -3,6 +3,7 @@
 title: "Sanitização"
 icon: "/img/icons/5.svg"
 short: " Elimine vírus, fungos e bactérias do ambiente e garanta um ar mais puro para todos."
+link: "two"
 
 #full details
 description:

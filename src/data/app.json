@@ -11,7 +11,7 @@
     },
     "header": {
         "logo": {
-            "image": "/img/logo/couto.png",
+            "image": "/img/logo/coutonew.png",
             "alt": "Logotipo Couto"
         },
         "menu": [
@@ -39,7 +39,7 @@
     },
     "footer": {
         "logo": {
-            "image": "/img/logo/couto.png",
+            "image": "/img/logo/coutonew.png",
             "alt": "Logo"
         },
         "copy": "© 2024 Couto Saúde Ambiental. Todos os direitos reservados.",

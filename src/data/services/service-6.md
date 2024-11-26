@@ -3,7 +3,7 @@
 title: "Higienização de Estofados"
 icon: "/img/icons/5.svg"
 short: "Livre seus estofados de sujeiras e microrganismos e garanta um ambiente seguro."
-
+link: "two"
 #full details
 description:
   - layout: 1

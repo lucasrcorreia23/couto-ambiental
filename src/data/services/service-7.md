@@ -3,7 +3,7 @@
 title: "Impermeabilização de Estofados"
 icon: "/img/icons/5.svg"
 short: "Evite manchas e aumente a durabilidade dos estofados com a impermeabilização."
-
+link: "two"
 #full details
 description:
   - layout: 1

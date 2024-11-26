@@ -13,7 +13,7 @@ import ServicesTwoSection from "../_components/sections/ServicesTwo";
 
 const HeroTwoSlider = dynamic( () => import("@components/sliders/HeroTwo"), { ssr: false } );
 const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
-const RecentProjectsSlider = dynamic( () => import("@components/sliders/RecentProjects"), { ssr: false } );
+
 
 export const metadata = {
   title: {
