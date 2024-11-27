@@ -1,5 +1,7 @@
 import React, { Suspense } from "react";
 
+
+
 import AppData from "@data/app.json";
 
 import dynamic from "next/dynamic";
@@ -7,15 +9,19 @@ import dynamic from "next/dynamic";
 import { getSortedServicesData } from "@library/services";
 
 import PageBanner from "@components/PageBanner";
-import VisionSection from "@components/sections/Vision";
-import FeaturesTwoSection from "@components/sections/FeaturesTwo";
-import AboutFourSection from "@components/sections/AboutFour";
+
 import CallToActionSection from "@components/sections/CallToAction";
 import FeaturesSection from "@components/sections/Features";
+import ScrollToTop from "@components/ScrollToTop";
 
 import Link from "next/link";
 
 const CompanyTwoSlider = dynamic( () => import("@components/sliders/CompanyTwo"), { ssr: false } );
+
+// Importa SmoothScroll dinamicamente para evitar execução no servidor
+const SmoothScroll = dynamic(() => import('smooth-scroll'), { ssr: false });
+// Importa o SmoothScrollWrapper
+const SmoothScrollWrapper = dynamic(() => import("@components/SmoothScrollWrapper"), { ssr: false })
 
 export const metadata = {
   title: {
@@ -26,12 +32,15 @@ export const metadata = {
 
 async function Services() {
   const services = await getAllServices();
+ 
   
+
   
   return (
     <>
+    <SmoothScrollWrapper /> {/* Inicializa o scroll suave no cliente */}
       <PageBanner pageTitle={"Nossas soluções"} breadTitle={"Serviços"} bgImage={"/img/photo/12.jpg"} />
-         
+      <ScrollToTop />
       {/* services */}
       <section>
           <div className="container mil-p-120-90">
@@ -49,7 +58,7 @@ async function Services() {
                   </div>
               </div>
 
-              <div className="mil-center mil-mb-90">
+              <div id="back" className="mil-center mil-mb-90">
                   <span className="mil-suptitle mil-upper mil-up mil-mb-30">O que você precisa?</span>
                   <h2 className="mil-upper mil-up">Conheça nossos serviços</h2>
               </div>
@@ -58,7 +67,7 @@ async function Services() {
                   {services.map((item, key) => (
                   <div className="col-lg-4 mil-up" key={`services-item-${key}`}>
 
-                      <Link href={item.link} className=" mil-service-card mil-mb-30">
+                      <a href={item.link.startsWith('#') ? item.link : `#${item.link}`} className=" mil-service-card mil-mb-30">
                           <div className="mil-card-number">{key<10 ? "0" + (key+1) + "." : (key+1) + "."}</div>
                           <div className="mil-center">
                               <div className="mil-icon mil-icon-lg mil-mb-30">
@@ -71,7 +80,7 @@ async function Services() {
                                   <img src="/img/icons/1.svg" alt="icon" />
                               </div>
                           </div>
-                      </Link>
+                      </a>
 
                   </div>
                   ))}
@@ -96,7 +105,7 @@ async function Services() {
                           texto
                           </span>
                         <h2 className="mil-upper mil-up mil-mb-30">
-                          texto
+                          Sanitização
                           </h2>
                         <p className="mil-up mil-mb-40" >
 

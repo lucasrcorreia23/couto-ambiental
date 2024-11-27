@@ -11,7 +11,7 @@ const CompanySlider = () => {
   return (
     <>
     {/* company two slider */}
-    <section>
+    <section id="one">
         <div className="container mil-p-0-30">
             <div className="mil-background-grid mil-softened" />
 
