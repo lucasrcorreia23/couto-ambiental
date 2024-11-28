@@ -685,7 +685,7 @@ Proteja seus estofados contra manchas e sujeiras com a impermeabilização. Esse
 
                           </p>
                         <div className="mil-up">
-                            <Link href="#" className="mil-link mil-upper">
+                            <Link href="/contato" className="mil-link mil-upper">
                                 Saiba mais
                                 <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span>
                             </Link>
