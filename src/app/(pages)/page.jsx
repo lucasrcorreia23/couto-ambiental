@@ -8,7 +8,7 @@ import { getSortedPostsData } from "@library/posts";
 import AboutSection from "@components/sections/About";
 import IdeasSection from "../_components/sections/Ideas";
 
-import ContactSection from "../_components/sections/contato";
+import ContactSection from "../_components/sections/Contato";
 import ServicesTwoSection from "../_components/sections/ServicesTwo";
 
 const HeroTwoSlider = dynamic( () => import("@components/sliders/HeroTwo"), { ssr: false } );
