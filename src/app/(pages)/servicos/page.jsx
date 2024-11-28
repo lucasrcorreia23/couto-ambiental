@@ -187,7 +187,7 @@ async function Services() {
 
        {/* content 3 */}
     <section>
-        <div className="container mil-p-120-0">
+        <div id="three" className="container mil-p-120-0">
             <div className="mil-background-grid mil-softened" />
 
             <div className="row justify-content-between align-items-center flex-sm-row-reverse">
@@ -285,7 +285,7 @@ async function Services() {
 
        {/* content 4 */}
     <section>
-        <div className="container mil-p-120-0">
+        <div id="four" className="container mil-p-120-0">
             <div className="mil-background-grid mil-softened" />
 
             <div className="row justify-content-between align-items-center flex-sm-row-reverse">
@@ -380,7 +380,7 @@ async function Services() {
 
        {/* content 5 */}
     <section>
-        <div className="container mil-p-120-0">
+        <div id="five" className="container mil-p-120-0">
             <div className="mil-background-grid mil-softened" />
 
             <div className="row justify-content-between align-items-center flex-sm-row-reverse">
@@ -474,7 +474,7 @@ async function Services() {
 
        {/* content 6 */}
     <section>
-        <div className="container mil-p-120-0">
+        <div id="six" className="container mil-p-120-0">
             <div className="mil-background-grid mil-softened" />
 
             <div className="row justify-content-between align-items-center flex-sm-row-reverse">
@@ -571,7 +571,7 @@ async function Services() {
 
        {/* content 7 */}
     <section>
-        <div className="container mil-p-120-0">
+        <div id="seven" className="container mil-p-120-0">
             <div className="mil-background-grid mil-softened" />
 
             <div className="row justify-content-between align-items-center flex-sm-row-reverse">
@@ -617,7 +617,7 @@ Proteja seus estofados contra manchas e sujeiras com a impermeabilização. Esse
 
      {/* features 7 */}
      <section>
-            <div className="container mil-p-60-120">
+            <div  className="container mil-p-60-120">
                 <div className="mil-background-grid mil-softened" />
 
                 <div className="row">
@@ -666,7 +666,7 @@ Proteja seus estofados contra manchas e sujeiras com a impermeabilização. Esse
 
        {/* content 8 */}
     <section>
-        <div className="container mil-p-120-0">
+        <div id="eight" className="container mil-p-120-0">
             <div className="mil-background-grid mil-softened" />
 
             <div className="row justify-content-between align-items-center flex-sm-row-reverse">
