@@ -557,8 +557,9 @@ button
     }
 
     &.mil-sm {
-        padding: 0 40px;
-        height: 60px;
+        padding: 0 32px;
+    height: 40px;
+    border-radius: 12px;
     }
 
     &:hover {

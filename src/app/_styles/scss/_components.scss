@@ -1262,15 +1262,19 @@ top panel
     & .mil-top-panel-content {
         height: 100px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         transition: $t-md;
 
         & .mil-logo {
             display: block;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
             align-items: center;
+            
+            @media screen and (min-width: 998px) {
+                width: 252px;
+            }
         }
     }
 
@@ -1314,7 +1318,7 @@ top panel
             & li {
                 display: flex;
                 align-items: center;
-                margin-right: 30px;
+                margin: 0 16px;
                 list-style-type: none;
 
                 & a {
@@ -1343,7 +1347,7 @@ top panel
 
                 &.mil-has-children {
                     position: relative;
-                    padding-right: 10px;
+                   
 
                     &:after {
                         content: '';

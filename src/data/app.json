@@ -24,14 +24,14 @@
             },
             {
                 "label": "Serviços",
-                "link": "/services",
+                "link": "/servicos",
                 "children": [                    
                 ]
             },            
            
             {
                 "label": "Contato",
-                "link": "/contact",
+                "link": "/contato",
                 "children": 0
             }
             
@@ -50,11 +50,11 @@
             },
             {
                 "label": "Serviços",
-                "link": "/services"
+                "link": "/servicos"
             },            
             {
                 "label": "Contato",
-                "link": "/contact"
+                "link": "/contato"
             }
         ]
     },

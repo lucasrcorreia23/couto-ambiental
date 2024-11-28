@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export const metadata = {
     title: {
-        default: "Contact",
+        default: "Contato",
     },
     description: AppData.settings.siteDescription,
 }

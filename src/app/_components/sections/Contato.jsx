@@ -1,4 +1,4 @@
-import Data from "@data/sections/contact.json";
+import Data from "@data/sections/contato.json";
 import ContactForm from "@components/ContactForm";
 
 const ContactSection = () => {

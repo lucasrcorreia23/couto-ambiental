@@ -6,7 +6,7 @@
             "subtitle": "",
             "title": "Controle de pragas urbanas e higienização com eficiência e segurança",
            
-            "link": "/contact",
+            "link": "/contato",
             "cta":"Conheça nossas soluções"
         },
         {
@@ -14,7 +14,7 @@
             "alt": "image",
             "subtitle": "Controle de pragas",
             "title": "Elimine as pragas, preserve seu espaço",
-            "link": "/contact",
+            "link": "/contato",
             "description": "Soluções confiáveis para afastar pragas urbanas e manter seu ambiente seguro",
             "cta":"Quero acabar com as pragas"
         },
@@ -24,7 +24,7 @@
             "subtitle": "Higienização e Impermeabilização",
             "title": "Bem-estar garantido para seu lar e seu negócio",
             "description": "Higienização completa e proteção duradoura contra alérgenos e manchas indesejadas",
-            "link": "/contact",
+            "link": "/contato",
             "cta":"Preciso remover manchas!"
         }
     ]
