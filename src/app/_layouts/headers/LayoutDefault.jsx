@@ -31,7 +31,7 @@ const DefaultHeader = () => {
             <div className="container-fluid">
                 <div className="mil-top-panel-content">
                     <Link href="/" className="mil-logo">
-                        <img src={AppData.header.logo.image} alt={AppData.header.logo.alt} style={{"width": "100px"}} />
+                        <img src={AppData.header.logo.image} alt={AppData.header.logo.alt} style={{"width": "160px"}} />
                     </Link>
 
                     <div className={`mil-navigation ${toggle ? "mil-active" : ""}`}>

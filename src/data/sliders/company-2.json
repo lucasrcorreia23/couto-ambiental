@@ -8,16 +8,8 @@
     },
     "items": [
         {
-            "image": "/img/photo/8.jpg",
-            "alt": "image"
-        },
-        {
-            "image": "/img/photo/7.jpg",
-            "alt": "image"
-        },
-        {
-            "image": "/img/photo/1.jpg",
-            "alt": "image"
-        }
+            "image": "/img/uploads/desinsetizacao.png",
+            "alt": "Desinsetizacao"
+        }        
     ]
 }

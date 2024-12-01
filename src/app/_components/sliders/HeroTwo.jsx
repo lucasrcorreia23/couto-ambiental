@@ -30,7 +30,7 @@ const HeroTwoSlider = () => {
                         <div className="mil-background-grid mil-top-space" />
                         <div className="mil-banner-content" data-swiper-parallax-y="300" data-swiper-parallax-opacity="0">
 
-                            <div className="mil-mb-90">
+                            <div className="">
                                 <span className="mil-suptitle mil-light mil-upper mil-mb-60" dangerouslySetInnerHTML={{__html : item.subtitle}} />
                                 <h1 className="mil-upper mil-light mil-mb-60" dangerouslySetInnerHTML={{__html : item.title}} />
                                 <p className="mil-light mil-mb-60" dangerouslySetInnerHTML={{__html : item.description}} />

@@ -8,47 +8,47 @@
     },
     "items": [
         {
-            "icon": "/img/icons//5.svg",
+            "icon": "/img/icons//barata.svg",
             "link": "",
             "label": "Baratas"
         },
         {
-            "icon": "/img/icons//5.svg",
+            "icon": "/img/icons/rato.svg",
             "link": "",
             "label": "Ratos"
         },
         {
-            "icon": "/img/icons/5.svg",
+            "icon": "/img/icons/formiga.svg",
             "link": "",
             "label": "Formigas"
         },
         {
-            "icon": "/img/icons//5.svg",
+            "icon": "/img/icons/aranha.svg",
             "link": "",
             "label": "Aranhas"
         },
         {
-            "icon": "/img/icons//5.svg",
+            "icon": "/img/icons/cupim.svg",
             "link": "",
             "label": "Cupins"
         },
         {
-            "icon": "/img/icons//5.svg",
+            "icon": "/img/icons/pulga.svg",
             "link": "",
             "label": "Pulgas"
         },
         {
-            "icon": "/img/icons//5.svg",
+            "icon": "/img/icons/carrapato.svg",
             "link": "",
             "label": "Carrapatos"
         },
         {
-            "icon": "/img/icons//5.svg",
+            "icon": "/img/icons/morcego.svg",
             "link": "",
             "label": "Morcegos"
         },
         {
-            "icon": "/img/icons//5.svg",
+            "icon": "/img/icons//pombo.svg",
             "link": "",
             "label": "Pombos"
         }

@@ -112,7 +112,7 @@ banner
     & .container {
         height: 100%;
         display: flex;
-        align-items: flex-end;
+        align-items: center;
     }
 
     & .mil-banner-content {
@@ -520,6 +520,7 @@ icons
     & .mil-icon {
         & img {
             transition: $t-sm;
+            width: 32px;
         }
     }
 
@@ -1265,6 +1266,7 @@ top panel
         justify-content: space-evenly;
         align-items: center;
         transition: $t-md;
+        height: 80px;
 
         & .mil-logo {
             display: block;

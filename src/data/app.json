@@ -11,7 +11,7 @@
     },
     "header": {
         "logo": {
-            "image": "/img/logo/coutonew.png",
+            "image": "/img/logo/logo-horizontal.png",
             "alt": "Logotipo Couto"
         },
         "menu": [
@@ -42,7 +42,7 @@
             "image": "/img/logo/coutonew.png",
             "alt": "Logo"
         },
-        "copy": "© 2024 Couto Saúde Ambiental. Todos os direitos reservados.",
+        "copy": "© 2024 Couto Saúde Ambiental. Todos os direitos reservados. Desenvolvido por Estúdio Nákama.",
         "menu": [
             {
                 "label": "Home",
@@ -50,7 +50,7 @@
             },
             {
                 "label": "Serviços",
-                "link": "/servicos"
+                "link": "/servicos#content"
             },            
             {
                 "label": "Contato",

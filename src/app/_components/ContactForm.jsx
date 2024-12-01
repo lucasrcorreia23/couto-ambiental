@@ -150,10 +150,7 @@ const ContactForm = ( { subtitleOffset } ) => {
                 </div>
                 <div className="col-lg-12">
 
-                    <div className="mil-checbox-frame mil-dark-input mil-up mil-mb-30">
-                        <input defaultChecked className="mil-checkbox" id="checkbox-1" type="checkbox" value="value" namge="agree" required />
-                        <label htmlFor="checkbox-1" className="mil-text-sm">Aceito os termos e condições de uso dos dados pessoais.</label>
-                    </div>
+                    
 
                 </div>
                 <div className="col-lg-12">

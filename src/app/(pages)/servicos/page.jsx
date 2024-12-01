@@ -39,7 +39,7 @@ async function Services() {
   return (
     <>
     <SmoothScrollWrapper /> {/* Inicializa o scroll suave no cliente */}
-      <PageBanner pageTitle={"Nossas soluções"} breadTitle={"Serviços"} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"Nossas soluções"} breadTitle={"Serviços"} bgImage={"/img/uploads/banner-servicos.png"} />
       <ScrollToTop />
       {/* services */}
       <section>
@@ -126,7 +126,7 @@ async function Services() {
                         
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src="/img/photo/8.jpg" alt="#" />
+                                            <img src="/img/uploads/sanitizacao.png" alt="#" />
                                         </div>
                                     </div>
                               
@@ -153,7 +153,7 @@ async function Services() {
                                 <img src="/img/icons/5.svg" alt="Couto Branding" />
                             </div>
                             <h4 className="mil-upper mil-mb-30">Proteção</h4>
-                            <p>Elimina agentes nocivos e melhora a qualidade do ar.</p>
+                            <p>Afasta agentes nocivos e melhora a qualidade do ar.</p>
                         </div>
 
                     </div>
@@ -220,7 +220,7 @@ async function Services() {
                         
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src="/img/photo/8.jpg" alt="#" />
+                                            <img src="/img/uploads/desratizacao.png" alt="desratizacao" />
                                         </div>
                                     </div>
                               
@@ -318,7 +318,7 @@ async function Services() {
                         
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src="/img/photo/8.jpg" alt="#" />
+                                            <img src="/img/uploads/descupim.png" alt="Descupinização" />
                                         </div>
                                     </div>
                               
@@ -410,7 +410,7 @@ async function Services() {
                         
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src="/img/photo/8.jpg" alt="#" />
+                                        <img src="/img/uploads/limpeza.png" alt="Limpeza de caixa d'água" />
                                         </div>
                                     </div>
                               
@@ -505,7 +505,7 @@ async function Services() {
                         
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src="/img/photo/8.jpg" alt="#" />
+                                        <img src="/img/uploads/estofados.png" alt="Higienização de Estofados" />
                                         </div>
                                     </div>
                               
@@ -602,7 +602,7 @@ Proteja seus estofados contra manchas e sujeiras com a impermeabilização. Esse
                         
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src="/img/photo/8.jpg" alt="#" />
+                                            <img src="/img/uploads/estofados2.png" alt="estofados" />
                                         </div>
                                     </div>
                               
@@ -699,7 +699,7 @@ Proteja seus estofados contra manchas e sujeiras com a impermeabilização. Esse
                         
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src="/img/photo/8.jpg" alt="#" />
+                                            <img src="/img/uploads/colchao.png" alt="Colchões" />
                                         </div>
                                     </div>
                               

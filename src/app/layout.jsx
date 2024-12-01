@@ -25,7 +25,7 @@ const Layouts = ({
   children
 }) => {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body>
         <div className="mil-wrapper">
           {children}

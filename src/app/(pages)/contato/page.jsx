@@ -17,7 +17,7 @@ export const metadata = {
 const Contact = () => {
   return (
     <>
-        <PageBanner pageTitle={"Chama a Couto!"} breadTitle={"Contato"} bgImage={"/img/photo/12.jpg"} />
+        <PageBanner pageTitle={"Chama a Couto!"} breadTitle={"Contato"} bgImage={"/img/uploads/banner-contato.png"} />
 
         {/* about */}
         <section>
@@ -37,7 +37,7 @@ const Contact = () => {
 
                         <div className="mil-contact-sidebar">
 
-                            <img src="img/photo/2.jpg" alt="img" style={{"width": "100%", "height": "200px", "objectFit": "cover", "objectPosition": "0 -60px"}} className="mil-mb-30" />
+                            <img src="img/uploads/info-contato.png" alt="img" style={{"width": "100%", "height": "200px", "objectFit": "cover","border-radius":"4px"}} className="mil-mb-30" />
 
                             <div className="mil-sidebar-info">
 
@@ -56,9 +56,8 @@ const Contact = () => {
                                 </ul>
                                 <h6 className="mil-upper mil-up mil-mb-30">Email</h6>
                                 <ul className="mil-list mil-dark mil-up">
-                                    <li>joyce@coutoimunizadora.com.br
-                                   </li>
-                                    <li> hello@ruizarch.com</li>
+                                    <li>joyce@coutoimunizadora.com.br</li>
+                                    <li>hello@ruizarch.com</li>
                                 </ul>
                                 
                             </div>

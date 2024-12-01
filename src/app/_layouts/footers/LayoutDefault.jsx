@@ -62,10 +62,7 @@ const DefaultFooter = () => {
                     <li key={`footer-social-item-${key}`}><a href={item.link} target="_blank">{item.title}</a></li>
                     ))}
                 </ul>
-                <ul className="mil-light-soft mil-mb-15">
-                    <li><a href="#.">Termos de Uso</a></li>
-                    <li><a href="#.">Politicas de Privacidade</a></li>
-                </ul>
+               
             </div>
 
         </div>
