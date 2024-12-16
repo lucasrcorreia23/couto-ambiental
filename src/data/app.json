@@ -23,11 +23,18 @@
                 ]
             },
             {
+                "label": "Sobre nós",
+                "link": "/sobre",
+                "children": [                    
+                ]
+            }, 
+            {
                 "label": "Serviços",
                 "link": "/servicos",
                 "children": [                    
                 ]
             },            
+                       
            
             {
                 "label": "Contato",
@@ -47,6 +54,10 @@
             {
                 "label": "Home",
                 "link": "/"
+            },
+            {
+                "label": "Sobre nós",
+                "link": "/sobre"
             },
             {
                 "label": "Serviços",

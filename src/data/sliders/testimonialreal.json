@@ -1,0 +1,26 @@
+{
+    "title": "O que falam sobre nós",
+    "subtitle": "Depoimentos",
+    "items": [
+        {
+            "name": "Luiz Althoff",
+            "image": "/img/faces/2.jpg",
+            "role": "Engenheiro",
+            "text": "Praesent eu mauris sit amet sapien maximus tincidunt. Integer sit amet vehicula turpis, ut dignissim risus. Phasellus gravida scelerisque dolor id tincidunt. Maecenas condimentum malesuada odio, at viverra lectus posuere nec. Pellentesque elementum, sem sed malesuada pulvinar, elit est fringilla mi, at porta augue dui id ligula. Quisque justo urna, tempus pretium metus in, accumsan gravida mi."
+        },
+        {
+            "name": "Leonardo",
+            "image": "/img/faces/3.jpg",
+            "role": "Empreendedor",
+            "text": "Praesent eu mauris sit amet sapien maximus tincidunt. Integer sit amet vehicula turpis, ut dignissim risus. Phasellus gravida scelerisque dolor id tincidunt. Maecenas condimentum malesuada odio, at viverra lectus posuere nec. Pellentesque elementum, sem sed malesuada pulvinar, elit est fringilla mi, at porta augue dui id ligula. Quisque justo urna, tempus pretium metus in, accumsan gravida mi."
+        },
+        {
+            "name": "Jaqueline",
+            "image": "/img/faces/1.jpg",
+            "role": "Palestrante",
+            "text": "Praesent eu mauris sit amet sapien maximus tincidunt. Integer sit amet vehicula turpis, ut dignissim risus. Phasellus gravida scelerisque dolor id tincidunt. Maecenas condimentum malesuada odio, at viverra lectus posuere nec. Pellentesque elementum, sem sed malesuada pulvinar, elit est fringilla mi, at porta augue dui id ligula. Quisque justo urna, tempus pretium metus in, accumsan gravida mi."
+        }
+        
+    ],
+    "showPartners": 2
+}

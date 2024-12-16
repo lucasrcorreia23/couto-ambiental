@@ -61,8 +61,7 @@ const DefaultFooter = () => {
                     {AppData.social.map((item, key) => (
                     <li key={`footer-social-item-${key}`}><a href={item.link} target="_blank">{item.title}</a></li>
                     ))}
-                </ul>
-               
+                </ul>               
             </div>
 
         </div>

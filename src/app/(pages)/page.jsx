@@ -10,10 +10,16 @@ import IdeasSection from "../_components/sections/Ideas";
 
 import ContactSection from "../_components/sections/Contato";
 import ServicesTwoSection from "../_components/sections/ServicesTwo";
+import TestimonialrealSlider from "../_components/sliders/Testimonialdepoim";
+import HowWeWorkSection from "@components/sections/HowWeWork";
+import CoresSection from "@components/sections/Cores";
+import AdvantagesSection from "@components/sections/Advantages";
+import LatestPostsSection from "@components/sections/LatestPosts";
 
 const HeroTwoSlider = dynamic( () => import("@components/sliders/HeroTwo"), { ssr: false } );
 const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
 
+const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
 
 export const metadata = {
   title: {
@@ -27,12 +33,22 @@ async function Home3() {
 
   return (
     <>
-      <HeroTwoSlider />   
+      <HeroTwoSlider /> 
+      <PartnersSlider />  
       <AboutSection />
       <IdeasSection />
       <TestimonialSlider/>
+      
       <ServicesTwoSection />
-      <ContactSection />         
+      
+
+<Suspense fallback={<div>Loading...</div>}>
+        <LatestPostsSection posts={posts} />
+      </Suspense>
+      <AdvantagesSection />
+      <TestimonialrealSlider/>
+      <ContactSection />    
+           
      
     </>
   );

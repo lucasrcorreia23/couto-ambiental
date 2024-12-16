@@ -49,7 +49,7 @@ const HeroTwoSlider = () => {
             <div className="mil-nav-position">
                 <div className="container">
                     <div className="mil-banner-slider-panel">
-                        <div className="mil-banner-pagination mil-mb-30" />
+                        
                         <div className="mil-nav-buttons mil-light mil-mb-30">
                             <div className="mil-slider-button mil-banner-prev">Anterior</div>
                             <div className="mil-slider-button mil-banner-next">Próximo</div>

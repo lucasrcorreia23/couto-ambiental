@@ -521,6 +521,7 @@ icons
         & img {
             transition: $t-sm;
             width: 32px;
+            height: 32px;
         }
     }
 
@@ -613,10 +614,12 @@ services
     display: flex;
     position: relative;
     overflow: hidden;
-    padding: 60px;
+    height: 356px;
+    padding: 24px 32px;
     border: 5px solid $dt-10;
     border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 5;
     transition: $t-md;
+    text-align: center;
 
     & .mil-card-number {
         position: absolute;
@@ -646,7 +649,7 @@ services
 
     &:hover {
         background-color: $light;
-        padding-top: 80px;
+        padding-top: 40px;
         padding-bottom: 40px;
         border: 5px solid $accent;
         border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $accent 1px, $accent 3px) 5;

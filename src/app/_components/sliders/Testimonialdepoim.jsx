@@ -3,13 +3,13 @@
 import { SliderProps } from "@common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import Data from '@data/sliders/testimonial';
+import Data from '@data/sliders/testimonialreal';
 import Data2 from '@data/sliders/partners';
 
 import { useEffect } from "react";
 import { ScrollAnimation } from "@common/scrollAnims";
 
-const TestimonialSlider = ( { showPartners = 1 } ) => {
+const TestimonialrealSlider = ( { showPartners = 1 } ) => {
   useEffect(() => {
     ScrollAnimation();
   }, []);
@@ -20,7 +20,7 @@ const TestimonialSlider = ( { showPartners = 1 } ) => {
       <section className="mil-soft-bg mil-relative">
           <img src="/img/other/bg.svg" className="mil-bg-img" alt="image" />
 
-          <div className="container mil-p-90-90">
+          <div className="container mil-p-120-0">
 
               <div className="row justify-content-between">
                   <div className="col-lg-4">
@@ -40,9 +40,14 @@ const TestimonialSlider = ( { showPartners = 1 } ) => {
                             {Data.items.map((item, key) => (
                             <SwiperSlide className="swiper-slide" key={`testimonial-slider-item-${key}`}>
 
-                              <div className=" mil-mb-30" data-swiper-parallax-x="-200" data-swiper-parallax-opacity="0">
+                              <div className="mil-review-frame mil-mb-30" data-swiper-parallax-x="-200" data-swiper-parallax-opacity="0">
                                   <div className="mil-reviev-head mil-up">
-                                      
+                                      <div className="mil-left">
+                                          <div className="mil-quote">
+                                              <img src="/img/icons/12.svg" alt="icon" />
+                                          </div>
+                                         
+                                      </div>
                                       <div className="mil-name">
                                           <h6 className="mil-upper">{item.name}</h6>
                                           <p className="mil-text-sm mil-dark-soft">{item.role}</p>
@@ -57,9 +62,13 @@ const TestimonialSlider = ( { showPartners = 1 } ) => {
                             ))}
                       </Swiper>
 
-                     
+                      <div className="mil-nav-buttons mil-reviews-nav mil-up">
+                          <div className="mil-slider-button mil-process-prev">Anterior</div>
+                          <div className="mil-slider-button mil-process-next">Próximo</div>
+                      </div>
 
-                  </div>                  
+                  </div>
+                  
               </div>
           </div>
       </section>
@@ -67,4 +76,4 @@ const TestimonialSlider = ( { showPartners = 1 } ) => {
     </>
   );
 };
-export default TestimonialSlider;
+export default TestimonialrealSlider;

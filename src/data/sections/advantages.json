@@ -1,23 +1,24 @@
 {
-    "title": "We Take Care of Everything <br>for You!",
-    "subtitle": "Our Advantages",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut labore aliqua.",
+    "title": "Como lidamos com morcegos e pombos?",
+    "subtitle": "Abordagem",
+    "description": "Nossa abordagem para o controle de morcegos e pombos é baseada em práticas seguras, éticas e legais.",
+    "subdescription": "Na Couto Saúde Ambiental, nosso compromisso é com a proteção do meio ambiente e o bem-estar da sociedade. Trabalhamos para garantir que o controle de morcegos e pombos seja realizado de maneira que respeite a legislação e promova a coexistência pacífica entre humanos e animais.",
     "items": [
         {
-            "title": "Listen",
-            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            "title": "Avaliação e Planejamento",
+            "text": "Realizamos uma avaliação detalhada do local para entender a extensão do problema e planejar a melhor estratégia de manejo."
         },
         {
-            "title": "Strategies",
-            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            "title": "Métodos Não Letais",
+            "text": "Utilizamos técnicas de afastamento e controle populacional que respeitam a vida dos animais, como barreiras físicas, repelentes e manejo do habitat."
         },
         {
-            "title": "Project Work",
-            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            "title": "Educação e Conscientização",
+            "text": "Informamos nossos clientes sobre a importância desses animais e as melhores práticas para conviver com eles de forma harmoniosa."
         },
         {
-            "title": "Launch",
-            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            "title": "Conformidade Legal",
+            "text": "Todas as nossas ações estão em conformidade com as leis ambientais vigentes, garantindo que o manejo seja realizado de forma responsável e sustentável."
         }
     ]
 }

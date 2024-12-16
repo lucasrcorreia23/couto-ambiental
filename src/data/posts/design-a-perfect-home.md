@@ -1,8 +1,8 @@
 ---
 #preview
-title: 'Design a perfect home'
+title: 'Pombos'
 date: '2022-04-02'
-image: "/img/covers/3.jpg"
+image: "/img/covers/home-pombo.png"
 categories:
     - Urban
 tags:
@@ -11,7 +11,7 @@ tags:
     - Development
     - UI
 author: Charlie Williams
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+short:  Embora frequentemente vistos como pragas urbanas, os pombos são parte do ambiente urbano e sua presença deve ser gerida de forma ética. A Lei de Crimes Ambientais (Lei nº 9.605/1998) protege a fauna silvestre, incluindo os pombos. O manejo deve ser feito de forma a não causar sofrimento ou morte desnecessária, priorizando métodos de controle populacional e afastamento.
 
 #full details
 introTitle: Design a <span class="mil-accent">perfect</span> home

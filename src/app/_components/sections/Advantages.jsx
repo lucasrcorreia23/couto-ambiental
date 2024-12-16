@@ -5,7 +5,7 @@ const AdvantagesSection = () => {
     <>
         {/* advantages */}
         <section>
-            <div className="container mil-p-120-60">
+            <div className="container mil-p-120-120">
                 <div className="mil-background-grid mil-softened" />
 
                 <div className="row">
@@ -24,13 +24,16 @@ const AdvantagesSection = () => {
                         <div className="mil-advantage mil-icon-box mil-center mil-up mil-mb-60">
                             <h4 className="mil-upper mil-mb-30">{item.title}</h4>
                             <div className="mil-icon mil-icon-border mil-mb-30">
-                                <img src="/img/icons/6.svg" alt="icon" />
+                                <img src="/img/icons/5.svg" alt="icon" />
                             </div>
                             <p>{item.text}</p>
                         </div>
 
                     </div>
                     ))}
+                     <div className="mil-center mil-mb-90">                           
+                            <p className="mil-up" dangerouslySetInnerHTML={{__html : Data.subdescription}} />
+                        </div>
                 </div>
             </div>
         </section>

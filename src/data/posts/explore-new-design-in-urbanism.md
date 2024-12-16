@@ -1,8 +1,8 @@
 ---
 #preview
-title: 'Explore new design in urbanism'
+title: 'Morcegos'
 date: '2022-04-02'
-image: "/img/covers/1.jpg"
+image: "/img/covers/home-morcego.png"
 categories:
     - Urban
 tags:
@@ -10,7 +10,7 @@ tags:
     - UI
     - Design
 author: Nguta Ithya
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+short: São fundamentais para o equilíbrio dos ecossistemas, atuam no controle de insetos e na polinização de plantas. Ajudam a manter o equilíbrio natural e a biodiversidade. A captura, manejo ou eliminação de morcegos é regulamentada pelo Ibama. Qualquer ação deve ser realizada por profissionais capacitados e autorizados, respeitando as diretrizes de conservação.
 
 #full details
 introTitle: Explore new <span class="mil-accent">design</span><br> in urbanism

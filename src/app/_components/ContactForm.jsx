@@ -75,7 +75,7 @@ const ContactForm = ( { subtitleOffset } ) => {
                         <label className="mil-upper"><span>Nome completo</span><span className="mil-required">*</span></label>
                         <input 
                             type="text" 
-                            placeholder="Enter Your Name Here"
+                            placeholder="Insira seu nome completo"
                             name="name" 
                             required="required" 
                             onChange={handleChange}

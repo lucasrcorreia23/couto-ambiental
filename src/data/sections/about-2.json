@@ -1,13 +1,13 @@
 {
-    "title": "The office renaissance",
+    "title": "Conheça a Couto",
     "subtitle": "Future of Work",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida.",
+    "description": " A Couto Saúde Ambiental foi oficialmente fundada em 12 de abril de 2000 por André Luiz Pinheiro Couto e Tania Cristiane Pretti Couto, mas nossa jornada começou bem antes disso. Desde 1996, atuávamos informalmente no setor, sempre com o objetivo de promover ambientes urbanos mais saudáveis e seguros. Em 2000, formalizamos nossa operação, marcando o início de uma trajetória de constante evolução e compromisso com a excelência.",
     "button": {
         "link": "/projects",
         "label": "Learn More"
     },
     "image": {
-        "url": "/img/photo/2.jpg",
+        "url": "/img/photo/sobrenos.png",
         "alt": "image"
     },
     "avatar": {
@@ -17,14 +17,14 @@
     },
     "items": [
         {
-            "value": "10",
+            "value": "25",
             "valueAfter": "+",
-            "label": "Years <br/>Experience"
+            "label": "Anos de<br/> Experiência"
         },
         {
-            "value": "99",
-            "valueAfter": "k+",
-            "label": "Billion <br/>Invested"
+            "value": "21.682",
+            "valueAfter": "+",
+            "label": "Clientes"
         }
     ]
 }
