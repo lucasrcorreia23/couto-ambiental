@@ -220,7 +220,7 @@ async function Services() {
                         
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src="/img/uploads/desratizacao.png" alt="desratizacao" />
+                                            <img src="/img/uploads/desra.png" alt="desratizacao" />
                                         </div>
                                     </div>
                               

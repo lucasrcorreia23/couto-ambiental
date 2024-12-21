@@ -507,6 +507,11 @@ icons
         height: 60px;
     }
 
+    &.mil-icon-lgx {
+        width: 120px;
+        height: 120px;
+    }
+
     &.mil-icon-xl {
         width: 80px;
         height: 80px;
@@ -609,6 +614,9 @@ icons
 services
 
 ------------------------------------------- */
+.h-full{
+    height: 100%!important;
+}
 .mil-service-card {
     background-color: $light;
     display: flex;
@@ -628,6 +636,10 @@ services
         color: $dt-10;
         font-weight: 800;
         font-size: 22px;
+    }
+
+    & .h-full{
+       
     }
 
     & .mil-center {

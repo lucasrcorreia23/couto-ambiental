@@ -19,7 +19,7 @@ const AboutTwoSection = () => {
 
                                 <div className="row">
                                     {Data.items.map((item, key) => (
-                                    <div className="col-6" key={`about-two-item-${key}`}>
+                                    <div className="col-6 mil-mb-30" key={`about-two-item-${key}`}>
 
                                         <div className="mil-counter-frame mil-up">
                                             <h4 className="mil-mb-5"><span className="mil-counter" data-number={item.value}>0</span>{item.valueAfter}</h4>
@@ -29,6 +29,7 @@ const AboutTwoSection = () => {
                                     </div>
                                     ))}
                                 </div>
+                                <p className="mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.atuacao}} />
 
                             </div>
 

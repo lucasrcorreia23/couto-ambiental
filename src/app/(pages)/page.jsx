@@ -46,6 +46,119 @@ async function Home3() {
         <LatestPostsSection posts={posts} />
       </Suspense>
       <AdvantagesSection />
+      <section>
+          <div className="container mil-p-0-90">
+              <div className="mil-background-grid mil-softened" />             
+
+              <div className="mil-center mil-mb-90">                 
+                  <h2 className="mil-upper mil-up">Setores de atuação</h2>
+              </div>
+
+              <div className="row">
+                 
+                  <div className="col-lg-4 mil-up">
+
+                      <div className="mil-service-card h-full mil-mb-30">
+                          
+                          <div className="mil-center">
+                              <div className="mil-icon mil-icon-lgx mil-mb-30">
+                                  <img src="/img/icons//setores/1.svg" alt="brand" />
+                              </div>
+                              <h4 className="mil-upper mil-mb-20">Industria de Alimentos</h4>
+                              <div className="mil-divider-sm mil-mb-20" />
+                             </div>
+                      </div>
+
+                  </div>
+                  <div className="col-lg-4 mil-up">
+
+                      <div className="mil-service-card h-full mil-mb-30">
+                          
+                          <div className="mil-center">
+                              <div className="mil-icon mil-icon-lgx mil-mb-30">
+                                  <img src="/img/icons/setores/2.svg" alt="brand" />
+                              </div>
+                              <h4 className="mil-upper mil-mb-20">Administradores e Facilities</h4>
+                              <div className="mil-divider-sm mil-mb-20" />
+                              </div>
+                      </div>
+
+                  </div>
+                  <div className="col-lg-4 mil-up">
+
+                      <div className="mil-service-card h-full mil-mb-30">
+                          
+                          <div className="mil-center">
+                              <div className="mil-icon mil-icon-lgx mil-mb-30">
+                                  <img src="/img/icons/setores/3.svg" alt="brand" />
+                              </div>
+                              <h4 className="mil-upper mil-mb-20">Indústrias Farmacêuticas</h4>
+                              <div className="mil-divider-sm mil-mb-20" />                                                           
+                          </div>
+                      </div>
+
+                  </div>
+                  <div className="col-lg-3 mil-up">
+
+                      <div className="mil-service-card h-full mil-mb-30">
+                          
+                          <div className="mil-center">
+                              <div className="mil-icon mil-icon-lgx mil-mb-30">
+                                  <img src="/img/icons/setores/4.svg" alt="brand" />
+                              </div>
+                              <h4 className="mil-upper mil-mb-20">Bares, Cafeterias e Restaurantes</h4>
+                              <div className="mil-divider-sm mil-mb-20" />                                                           
+                          </div>
+                      </div>
+
+                  </div>
+                  <div className="col-lg-3 mil-up">
+
+                      <div className="mil-service-card h-full mil-mb-30">
+                          
+                          <div className="mil-center">
+                              <div className="mil-icon mil-icon-lgx mil-mb-30">
+                                  <img src="/img/icons/setores/5.svg" alt="brand" />
+                              </div>
+                              <h4 className="mil-upper mil-mb-20">Supermercados e Comércio de Alimentos</h4>
+                              <div className="mil-divider-sm mil-mb-20" />                                                        
+                          </div>
+                      </div>
+
+                  </div>
+                  <div className="col-lg-3 mil-up">
+
+                      <div className="mil-service-card h-full mil-mb-30">
+                          
+                          <div className="mil-center">
+                              <div className="mil-icon mil-icon-lgx mil-mb-30">
+                                  <img src="/img/icons/setores/6.svg" alt="brand" />
+                              </div>
+                              <h4 className="mil-upper mil-mb-20">Transporte</h4>
+                              <div className="mil-divider-sm mil-mb-20" />                                                            
+                          </div>
+                      </div>
+
+                  </div>
+                  <div className="col-lg-3 mil-up">
+
+                      <div className="mil-service-card h-full mil-mb-30">
+                          
+                          <div className="mil-center">
+                              <div className="mil-icon mil-icon-lgx mil-mb-30">
+                                  <img src="/img/icons/setores/7.svg" alt="brand" />
+                              </div>
+                              <h4 className="mil-upper mil-mb-20">Outros setores</h4>
+                              <div className="mil-divider-sm mil-mb-20" />                                                            
+                          </div>
+                      </div>
+
+                  </div>
+                  
+              
+              </div>
+          </div>
+      </section>
       <TestimonialrealSlider/>
       <ContactSection />    
            

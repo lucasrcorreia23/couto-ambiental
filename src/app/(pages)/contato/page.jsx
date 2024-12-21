@@ -42,22 +42,23 @@ const Contact = () => {
                             <div className="mil-sidebar-info">
 
                                 <h6 className="mil-upper mil-up mil-mb-30">Localização</h6>
-                                <ul className="mil-list mil-dark mil-up mil-mb-30">
-                                    <li>Brasil</li>
+                                <ul className="mil-list mil-dark mil-up mil-mb-30">                                    
                                     <li>Timbó - Santa Catarina, </li>
                                     <li>R. Belém, 272 - Das Capitais, </li>
                                     <li>CEP 89120-000</li>
                                 </ul>
+                                <ul className="mil-list mil-dark mil-up mil-mb-30">                                   
+                                    <li>Rio de Janeiro - RJ </li>                                   
+                                </ul>
                                 <h6 className="mil-upper mil-up mil-mb-30">Phone</h6>
-                                <ul className="mil-list mil-dark mil-up mil-mb-30">
-                                    <li>(47) 3399-0561
-                                    </li>
+                                <ul className="mil-list mil-dark mil-up mil-mb-30">                                  
+                                    <li><a href="https://wa.me/554733990561"> (47) 3399-0561</a></li>
                                     <li>(47) 98847-0326</li>
                                 </ul>
                                 <h6 className="mil-upper mil-up mil-mb-30">Email</h6>
                                 <ul className="mil-list mil-dark mil-up">
                                     <li>joyce@coutoimunizadora.com.br</li>
-                                    <li>hello@ruizarch.com</li>
+                                
                                 </ul>
                                 
                             </div>

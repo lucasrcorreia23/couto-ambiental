@@ -4,7 +4,7 @@ import { SliderProps } from "@common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import Data from '@data/sliders/testimonial';
-import Data2 from '@data/sliders/partners';
+import Data2 from '@data/sliders/partners2';
 
 import { useEffect } from "react";
 import { ScrollAnimation } from "@common/scrollAnims";
@@ -59,7 +59,25 @@ const TestimonialSlider = ( { showPartners = 1 } ) => {
 
                      
 
-                  </div>                  
+                  </div>   
+                  {showPartners == 1 &&
+                  <div className="col-12 mil-p-120-0">
+
+                      <div className="mil-partners">
+                          <div className="mil-background-grid mil-softened"></div>
+                          <Swiper
+                            {...SliderProps.milInfiniteSlider}
+                            className="swiper-container mil-infinite-show mil-up"
+                          >
+                                  {Data2.items.map((item, key) => (
+                                  <SwiperSlide className="swiper-slide" key={`partners-slider-item-${key}`}>
+                                    <a href={item.link} target="_blank" className="mil-partner-frame"><img src={item.image} alt={item.alt} /></a>
+                                  </SwiperSlide>
+                                  ))}
+                          </Swiper>
+                      </div>
+                  </div>
+                  }               
               </div>
           </div>
       </section>

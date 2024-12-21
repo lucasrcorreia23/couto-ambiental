@@ -26,7 +26,7 @@ const IdeasSection = () => {
                              
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src="/img/uploads/incomoda.png" alt="{item.alt}" />
+                                            <img src="/img/uploads/qual-praga.png" alt="{item.alt}" />
                                         </div>
                                     </div>
                         

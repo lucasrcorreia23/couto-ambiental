@@ -1,0 +1,23 @@
+{
+    "items": [
+        {
+            "image": "/img/partners/18.svg",
+            "alt": "acprag"
+        },
+        
+        {
+            "image": "/img/partners/19.png",
+            "alt": "bayer"
+        },
+        
+        {
+            "image": "/img/partners/17.png",
+            "alt": "bayer"
+        },
+        {
+            "image": "/img/partners/20.png",
+            "alt": "syngenta"
+        }
+        
+    ]
+}
