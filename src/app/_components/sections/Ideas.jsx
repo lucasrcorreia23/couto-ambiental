@@ -41,7 +41,7 @@ const IdeasSection = () => {
 
                             <div className="row">
                                 {Data.items.map((item, key) => (
-                                <div className="col-sm-4" key={`ideas-item-${key}`}>
+                                <div className="col-4" key={`ideas-item-${key}`}>
 
                                     <div href={item.link} className="mil-icon-box mil-sm-center mil-mb-30">
                                         <div className="mil-icon mil-icon-accent-bg mil-up mil-mb-30">
