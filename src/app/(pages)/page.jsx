@@ -11,8 +11,6 @@ import IdeasSection from "../_components/sections/Ideas";
 import ContactSection from "../_components/sections/Contato";
 import ServicesTwoSection from "../_components/sections/ServicesTwo";
 import TestimonialrealSlider from "../_components/sliders/Testimonialdepoim";
-import HowWeWorkSection from "@components/sections/HowWeWork";
-import CoresSection from "@components/sections/Cores";
 import AdvantagesSection from "@components/sections/Advantages";
 import LatestPostsSection from "@components/sections/LatestPosts";
 
@@ -159,7 +157,7 @@ async function Home3() {
               </div>
           </div>
       </section>
-      <TestimonialrealSlider/>
+     {/* <TestimonialrealSlider/> */}
       <ContactSection />    
            
      
