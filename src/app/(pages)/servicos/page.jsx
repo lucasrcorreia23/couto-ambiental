@@ -153,7 +153,7 @@ async function Services() {
                                 <img src="/img/icons/5.svg" alt="Couto Branding" />
                             </div>
                             <h4 className="mil-upper mil-mb-30">Proteção</h4>
-                            <p>Afasta agentes nocivos e melhora a qualidade do ar.</p>
+                            <p>Controle agentes nocivos e melhora a qualidade do ar.</p>
                         </div>
 
                     </div>
@@ -300,7 +300,7 @@ async function Services() {
                           </h2>
                         <p className="mil-up mil-mb-40" >
 
-                        Proteja seu patrimônio contra os cupins, que destroem móveis e estruturas. Nossa descupinização utiliza métodos seguros e precisos, garantindo o controle eficaz dos cupins e evitando prejuízos. Ideal para ambientes com crianças, pets e pessoas alérgicas.
+                        Proteja seu patrimônio contra os cupins, que destroem móveis e estruturas. Nossa descupinização utiliza métodos seguros e precisos, garantindo o controle eficaz dos cupins e evitando prejuízos. Ideal para proteger seu patrimônio.
 
                           </p>
                         <div className="mil-up">
@@ -357,7 +357,7 @@ async function Services() {
                                 <img src="/img/icons/5.svg" alt="Couto Branding" />
                             </div>
                             <h4 className="mil-upper mil-mb-30">Eficiência</h4>
-                            <p>Elimina cupins com segurança e precisão.</p>
+                            <p>Inativar cupins com segurança e precisão.</p>
                         </div>
 
                     </div>
@@ -393,7 +393,7 @@ async function Services() {
                         Limpeza de Caixa d'água
                           </h2>
                         <p className="mil-up mil-mb-40" >
-                        Assegure água limpa e segura com a limpeza profissional de sua caixa d’água. Nossa equipe segue protocolos rigorosos para eliminar fungos, bactérias e sujeiras que comprometem a qualidade da água e a saúde de sua família.
+                        Assegure água limpa e segura com a limpeza profissional de sua caixa d’água. Nossa equipe segue protocolos rigorosos para inativar fungos, bactérias e sujeiras que comprometem a qualidade da água e a saúde de sua família.
                           </p>
                         <div className="mil-up">
                             <Link href="/contato" className="mil-link mil-upper">
@@ -488,7 +488,7 @@ async function Services() {
                           </h2>
                         <p className="mil-up mil-mb-40" >
 
-                        Elimine ácaros, fungos e bactérias dos estofados e garanta um ambiente saudável e seguro. Nossa higienização profunda protege contra doenças respiratórias e renova sofás e poltronas, aumentando seu conforto e vida útil.
+                        Inative ácaros, fungos e bactérias dos estofados e garanta um ambiente saudável e seguro. Nossa higienização profunda protege contra doenças respiratórias renovando sofás e poltronas, aumentando seu conforto e vida útil.
                           </p>
                         <div className="mil-up">
                             <Link href="/contato" className="mil-link mil-upper">
