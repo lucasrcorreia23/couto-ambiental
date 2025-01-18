@@ -2,7 +2,7 @@
 #preview details
 title: "Desratização"
 icon: "/img/icons/5.svg"
-short: "Afaste roedores e evite riscos à saúde com nossa desratização profissional."
+short: "Controle roedores e evite riscos à saúde com nossa desratização profissional."
 link: "#three"
 #full details
 description:
