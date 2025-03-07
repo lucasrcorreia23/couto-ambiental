@@ -680,7 +680,7 @@ list
 
         &:before {
             content: '';
-            display: inline;
+            display: none;
             width: 6px;
             height: 6px;
             border: solid 1px $dark;

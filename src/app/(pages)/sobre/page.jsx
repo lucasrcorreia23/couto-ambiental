@@ -64,7 +64,7 @@ const About = () => {
               <div className="mil-background-grid mil-softened" />             
 
               <div className="mil-center mil-mb-90">                 
-                  <h2 className="mil-upper mil-up">Nossos valores</h2>
+                  <h2 className="mil-upper mil-up">Nossos princípios</h2>
               </div>
 
               <div className="row">
