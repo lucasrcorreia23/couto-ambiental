@@ -29,7 +29,7 @@ const Contact = () => {
 
                         <div className="mil-mb-90">
                             <h2 className="mil-upper mil-up mil-mb-30">Informações de contato</h2>
-                            <p className="mil-up mil-mb-40">Tem alguma dúvida sobre nossos serviços de controle de pragas urbanas, higienização ou impermeabilização? Precisa de uma solução personalizada para o seu espaço? Nossa equipe especializada está pronta para ajudar você a manter seu ambiente seguro, limpo e saudável.</p>
+                            <p className="mil-up mil-mb-40">Tem alguma dúvida sobre nossos serviços de controle de pragas urbanas, higienização ou impermeabilização? Precisa de uma solução personalizada para o seu ambiente? Nossa equipe especializada está pronta para ajudar você a manter seu ambiente seguro, limpo e saudável.</p>
                         </div>
 
                     </div>
@@ -48,8 +48,8 @@ const Contact = () => {
                                     <li>CEP 89120-000</li>
                                 </ul>
                                 <ul className="mil-list mil-dark mil-up mil-mb-30">                                   
-                                    <li>São Bernardo - RJ </li>                                   
-                                    <li>R. Elza Matulevicius Gonçalves, 78 - Belford Roxo </li>                                   
+                                    <li>Belford Roxo - RJ, </li>                                   
+                                    <li>R. Elza Matulevicius Gonçalves, 78 -<br></br> São Bernardo - RJ </li>                                   
                                     <li>
                                     </li>                                   
                                     <li>CEP 26165-250 </li>                                   

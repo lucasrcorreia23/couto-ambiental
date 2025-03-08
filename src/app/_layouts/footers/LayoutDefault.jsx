@@ -35,11 +35,11 @@ const DefaultFooter = () => {
                             </div>
 
                         </div>
-                        <div className="col-md-6 col-lg-6 col-xl-3">
+                        <div className="col-md-6 col-lg-6 col-xl-6">
                             <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">Timbó - Santa Catarina, Brasil.
                             </span>
-                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">R. Belém, 272 - Das Capitais,  CEP 89120-000 <br/>(47) 3399-0561<br/>
-(47) 98847-0326
+                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">R. Belém, 272 - Das Capitais, <br></br>CEP 89120-000 <br/>(47) 3399-0561<br/>
+
 
                             </p>
                         </div>
@@ -50,6 +50,7 @@ const DefaultFooter = () => {
                     <Link href="/" className="mil-footer-logo mil-up mil-mb-30">
                         <img src={AppData.footer.logo.image} alt={AppData.footer.logo.alt} style={{"width": "130px"}} />
                     </Link>
+                    
                 </div>
             </div>
         </div>

@@ -20,8 +20,7 @@ const HeroTwoSlider = () => {
         <section className="mil-banner">
             <Swiper
                 {...SliderProps.milBannerSlider2}
-                className="swiper-container mil-banner-slider-2"
-            >
+                className="swiper-container mil-banner-slider-2">                                                        
                 {Data.items.map((item, key) => (
                 <SwiperSlide className="swiper-slide" key={`hero-two-slider-item-${key}`}>
                     <img src={item.image} className="mil-bg-img" alt={item.alt} data-swiper-parallax-x="300" data-swiper-parallax-scale="1.3" />

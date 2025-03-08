@@ -126,7 +126,7 @@ async function Services() {
                         
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src="/img/uploads/sanitizacao.png" alt="#" />
+                                            <img src="/img/uploads/saniti-2.png" alt="Sanitização" />
                                         </div>
                                     </div>
                               
@@ -175,7 +175,7 @@ async function Services() {
                                 <img src="/img/icons/5.svg" alt="Couto Branding" />
                             </div>
                             <h4 className="mil-upper mil-mb-30">Eficiência</h4>
-                            <p>Métodos eficazes para manter espaços limpos e seguros.</p>
+                            <p>Métodos eficazes para manter os ambientes limpos e seguros.</p>
                         </div>
 
                     </div>
@@ -202,7 +202,7 @@ async function Services() {
                           </h2>
                         <p className="mil-up mil-mb-40" >
 
-                        A desratização é essencial para prevenir a presença de roedores, que podem causar danos e transmitir doenças graves. Realizada de forma segura por nossa equipe, essa solução protege seu espaço contra riscos à saúde e evita contaminações.
+                        A desratização é essencial para prevenir a presença de roedores, que podem causar danos e transmitir doenças graves. Realizada de forma segura por nossa equipe, essa solução protege seu ambiente contra riscos à saúde e evita contaminações.
 
                           </p>
                         <div className="mil-up">
@@ -220,7 +220,7 @@ async function Services() {
                         
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src="/img/uploads/desra.png" alt="desratizacao" />
+                                            <img src="/img/uploads/desratizacao-2.png" alt="desratizacao" />
                                         </div>
                                     </div>
                               
@@ -318,7 +318,7 @@ async function Services() {
                         
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src="/img/uploads/descupim.png" alt="Descupinização" />
+                                            <img src="/img/uploads/descupi-2.png" alt="Descupinização" />
                                         </div>
                                     </div>
                               
@@ -410,7 +410,7 @@ async function Services() {
                         
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                        <img src="/img/uploads/limpeza.png" alt="Limpeza de caixa d'água" />
+                                        <img src="/img/uploads/limpeza-3.png" alt="Limpeza de caixa d'água" />
                                         </div>
                                     </div>
                               
@@ -505,7 +505,7 @@ async function Services() {
                         
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                        <img src="/img/uploads/estofados.png" alt="Higienização de Estofados" />
+                                        <img src="/img/uploads/estofados-3.png" alt="Higienização de Estofados" />
                                         </div>
                                     </div>
                               
@@ -699,7 +699,7 @@ Proteja seus estofados contra manchas e sujeiras com a impermeabilização. Esse
                         
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src="/img/uploads/colchao.png" alt="Colchões" />
+                                            <img src="/img/uploads/colchao-2.png" alt="Colchões" />
                                         </div>
                                     </div>
                               

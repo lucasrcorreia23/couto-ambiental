@@ -35,7 +35,7 @@ const About = () => {
   return (
     
     <>
-      <PageBanner pageTitle={"Sobre nós"} breadTitle={"sobre"} bgImage={"/img/photo/sobrebanner.png"} />
+      <PageBanner pageTitle={"Sobre nós"} breadTitle={"sobre"} bgImage={"/img/photo/sobre-3.png"} />
       <AboutTwoSection />
       <section>
       <div className="container mil-p-0-60">
