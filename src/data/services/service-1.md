@@ -2,7 +2,7 @@
 #preview details
 title: "Desinsetização"
 icon: "/img/icons/5.svg"
-short: "Controle sua saúde e seu ambiente, afastando insetos e pragas com desinsetização eficaz."
+short: "Controle sua saúde e seu ambiente, afastando insetos e pragas urbanas com desinsetização eficaz."
 link: "#one"
 
 #full details

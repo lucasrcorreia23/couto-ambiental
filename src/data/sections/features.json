@@ -3,7 +3,7 @@
         {
             "image": "/img/icons/5.svg",
             "title": "Prevenção",
-            "text": " Controle e prevenção de pragas para evitar danos e infestações."
+            "text": " Controle e prevenção de pragas urbanas para evitar danos e infestações."
         },
         {
             "image": "img/icons/5.svg",
@@ -13,7 +13,7 @@
         {
             "image": "img/icons/5.svg",
             "title": "Saúde",
-            "text": "Redução de doenças associadas a pragas no ambiente."
+            "text": "Redução de doenças associadas a pragas urbanas no ambiente."
         }
     ]
 }

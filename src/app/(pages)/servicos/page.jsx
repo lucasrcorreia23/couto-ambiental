@@ -40,7 +40,7 @@ async function Services() {
     <>
     <SmoothScrollWrapper /> {/* Inicializa o scroll suave no cliente */}
       <PageBanner pageTitle={"Nossas soluções"} breadTitle={"Serviços"} bgImage={"/img/uploads/banner-servicos.png"} />
-      <ScrollToTop />
+     
       {/* services */}
       <section>
           <div className="container mil-p-120-90">
@@ -50,8 +50,8 @@ async function Services() {
                   <div className="col-lg-8">
 
                       <div className="mil-center mil-mb-120">
-                          <span className="mil-suptitle mil-upper mil-up mil-mb-30">Controle de pragas e higienização</span>
-                          <p className="mil-text-lg mil-up">Cuidar da saúde e segurança dos ambientes onde vivemos e trabalhamos é essencial. A Couto Saúde Ambiental oferece soluções completas em controle de pragas e higienização, com serviços especializados e profissionais qualificados. Com 25 anos de experiência, garantimos um ambiente livre de riscos para você, sua família e seu negócio.
+                          <span className="mil-suptitle mil-upper mil-up mil-mb-30">Controle de pragas urbanas e higienização</span>
+                          <p className="mil-text-lg mil-up">Cuidar da saúde e segurança dos ambientes onde vivemos e trabalhamos é essencial. A Couto Saúde Ambiental oferece soluções completas em controle de pragas urbanas e higienização, com serviços especializados e profissionais qualificados. Com 25 anos de experiência, garantimos um ambiente livre de riscos para você, sua família e seu negócio.
                           </p>
                       </div>
 
@@ -505,7 +505,7 @@ async function Services() {
                         
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                        <img src="/img/uploads/estofados-3.png" alt="Higienização de Estofados" />
+                                        <img src="/img/uploads/estofados-2.png" alt="Higienização de Estofados" />
                                         </div>
                                     </div>
                               
@@ -602,7 +602,7 @@ Proteja seus estofados contra manchas e sujeiras com a impermeabilização. Esse
                         
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src="/img/uploads/estofados2.png" alt="estofados" />
+                                            <img src="/img/uploads/estofados-3.png" alt="estofados" />
                                         </div>
                                     </div>
                               

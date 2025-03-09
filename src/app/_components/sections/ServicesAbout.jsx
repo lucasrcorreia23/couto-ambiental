@@ -18,10 +18,10 @@ const ServicesAbout = () => {
                         <p className="mil-up mil-mb-40" >Oferecemos uma gama de serviços que incluem o controle de vetores e pragas, além de higienização e impermeabilização de estofados. Nosso compromisso é com a segurança, conforto e bem-estar da sociedade, sempre com um olhar completo sobre o ecossistema.
                         </p>
                         <div className="mil-up">
-                            <Link href="/servicos" className="mil-link mil-upper">
+                            <a href="/servicos" className="mil-link mil-upper">
                              Conheça nossos serviços
                                 <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span>
-                            </Link>
+                            </a>
                         </div>
                         
                     </div>

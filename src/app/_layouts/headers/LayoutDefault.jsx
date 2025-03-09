@@ -30,29 +30,19 @@ const DefaultHeader = () => {
         <div className="mil-top-panel">
             <div className="container-fluid">
                 <div className="mil-top-panel-content">
-                    <Link href="/" className="mil-logo">
+                    <a href="/" className="mil-logo">
                         <img src={AppData.header.logo.image} alt={AppData.header.logo.alt} style={{"width": "160px"}} />
-                    </Link>
+                    </a>
 
                     <div className={`mil-navigation ${toggle ? "mil-active" : ""}`}>
                         <nav>
                             <ul>
                                 {AppData.header.menu.map((item, index) => (
                                 <li className={`mil-has-children ${isPathActive(item.link) ? "mil-active" : ""}`} key={`header-menu-item-${index}`}>
-                                    <Link href={item.link} onClick={item.children.length > 0  ? (e) => handleSubMenuClick(index, e) : null}>
+                                    <a href={item.link} onClick={item.children.length > 0  ? (e) => handleSubMenuClick(index, e) : null}>
                                         {item.label}
-                                    </Link>
-                                    {item.children.length > 0 && (
-                                    <ul className={activeSubMenu === index ? 'mil-active' : ''}>
-                                        {item.children.map((subitem, subIndex) => (
-                                        <li key={`header-submenu-item-${subIndex}`} className={isPathActive(subitem.link) ? "mil-active" : ""}>
-                                            <Link href={subitem.link}>
-                                                {subitem.label}
-                                            </Link>
-                                        </li>
-                                        ))}
-                                    </ul>
-                                    )}
+                                    </a>
+                                    
                                 </li>
                                 ))}
                             </ul>

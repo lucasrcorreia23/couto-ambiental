@@ -46,12 +46,12 @@ const About = () => {
 
                       <div className="mil-center mil-mb-120">
                           <span className="mil-suptitle mil-upper mil-up mil-mb-30">Nossa missão</span>
-                          <p className="mil-text-lg mil-up">Nossa missão é clara: promover a saúde e o bem-estar em ambientes urbanos através de soluções seguras e sustentáveis no controle de pragas e higienização. Com uma abordagem ética e inovadora, buscamos proteger a saúde pública e o ecossistema, oferecendo serviços que equilibram a segurança ambiental com a satisfação do cliente.
+                          <p className="mil-text-lg mil-up">Garantir ambientes saudáveis a sociedade, amenizando prejuizos através do controle de vetores e pragas urbanas.
                           </p>
                       </div>
                       <div className="mil-center">
-                          <span className="mil-suptitle mil-upper mil-up mil-mb-30">Nosso compromisso</span>
-                          <p className="mil-text-lg mil-up">Desde a nossa formalização, temos nos dedicado a atualizar constantemente nossos métodos e a treinar nossa equipe para garantir a evolução dos resultados e a entrega do melhor serviço possível para nossos clientes e parceiros. Continuamos a nos esforçar para ser líderes no setor, sempre guiados por nossos valores fundamentais.
+                          <span className="mil-suptitle mil-upper mil-up mil-mb-30">Nossa visão</span>
+                          <p className="mil-text-lg mil-up">Ser reconhecida como empresa que gera saúde, bem estar e conforto, garantindo equilibrio entre seres humanos e a natureza, munidos de ciência e segurança.
                           </p>
                       </div>
 
