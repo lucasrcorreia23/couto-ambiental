@@ -2,7 +2,7 @@
     "settings": {
         "siteName": "Couto",
         "siteDescription": "Higienização completa e proteção duradoura contra alérgenos e manchas indesejadas",
-        "formspreeURL": "",
+        "formspreeURL": "https://formspree.io/f/mjkybqwy",
         "mailchimp": {
             "url": "",
             "key": ""
