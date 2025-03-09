@@ -50,19 +50,27 @@ const DefaultFooter = () => {
                     <Link href="/" className="mil-footer-logo mil-up mil-mb-30">
                         <img src={AppData.footer.logo.image} alt={AppData.footer.logo.alt} style={{"width": "130px"}} />
                     </Link>
+                    <div className="mil-footer-logo mil-up">
+        <a href="https://www.instagram.com/coutosaudeambiental/" target="_blank" rel="noopener noreferrer" className="mil-social-icon">
+            <i className="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/coutoimunizadora" target="_blank" rel="noopener noreferrer" className="mil-social-icon">
+            <i className="fab fa-facebook"></i>
+        </a>
+        <a href="https://api.whatsapp.com/send/?phone=554733990561&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="mil-social-icon">
+            <i className="fab fa-whatsapp"></i>
+        </a>
+    </div>  
                     
                 </div>
+               
             </div>
         </div>
         <div className="container-fluid">
 
             <div className="mil-footer-bottom">
                 <p className="mil-light-soft mil-mb-15">{AppData.footer.copy}</p>
-                <ul className="mil-light-soft mil-mb-15">
-                    {AppData.social.map((item, key) => (
-                    <li key={`footer-social-item-${key}`}><a href={item.link} target="_blank">{item.title}</a></li>
-                    ))}
-                </ul>               
+                         
             </div>
 
         </div>

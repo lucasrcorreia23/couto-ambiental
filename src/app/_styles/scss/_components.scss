@@ -1125,13 +1125,32 @@ footer {
 }
 
 .mil-footer-logo {
-    display: block;
+   display: flex;
     text-align: right;
+    text-align: right;
+    gap: 16px;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
 
     @media screen and (max-width: 992px) {
         margin-top: 60px;
         text-align: left;
     }
+}
+
+.mil-social-icons {
+    display: flex;
+    gap: 15px; /* Espaçamento entre os ícones */
+}
+
+.mil-social-icon {
+    font-size: 24px; /* Tamanho dos ícones */
+    color: #ffffff; /* Cor dos ícones */
+    transition: color 0.3s ease;
+}
+
+.mil-social-icon:hover {
+    color: #0077b5; /* Cor ao passar o mouse (exemplo para LinkedIn) */
 }
 
 .mil-footer-navigation {
@@ -1223,7 +1242,7 @@ footer {
     border-top: solid 1px $lt-10;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
     & ul {
         display: flex;
