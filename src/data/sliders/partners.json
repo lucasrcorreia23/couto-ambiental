@@ -1,9 +1,6 @@
 {
     "items": [
-        {
-            "image": "/img/partners/18.svg",
-            "alt": "acprag"
-        },
+        
         {
             "image": "/img/partners/1.jpg",
             "alt": "basf"
@@ -67,20 +64,9 @@
         {
             "image": "/img/partners/16.jpg",
             "alt": "bayer"
-        },
-        
-        {
-            "image": "/img/partners/17.png",
-            "alt": "basf"
-        },
-        {
-            "image": "/img/partners/19.png",
-            "alt": "bayer"
-        },
-        {
-            "image": "/img/partners/20.png",
-            "alt": "syngenta"
         }
+        
+        
         
     ]
 }
