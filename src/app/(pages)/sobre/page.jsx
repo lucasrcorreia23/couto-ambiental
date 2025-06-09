@@ -46,12 +46,12 @@ const About = () => {
 
                       <div className="mil-center mil-mb-120">
                           <span className="mil-suptitle mil-upper mil-up mil-mb-30">Nossa missão</span>
-                          <p className="mil-text-lg mil-up">Garantir ambientes saudáveis a sociedade, amenizando prejuizos através do controle de vetores e pragas urbanas.
+                          <p className="mil-text-lg mil-up">Garantir ambientes saudáveis a sociedade, amenizando prejuízos através do controle de vetores e pragas urbanas.
                           </p>
                       </div>
                       <div className="mil-center">
                           <span className="mil-suptitle mil-upper mil-up mil-mb-30">Nossa visão</span>
-                          <p className="mil-text-lg mil-up">Ser reconhecida como empresa que gera saúde, bem estar e conforto, garantindo equilibrio entre seres humanos e a natureza, munidos de ciência e segurança.
+                          <p className="mil-text-lg mil-up">Ser reconhecida como empresa que gera saúde, bem estar e conforto, garantindo equilíbrio entre seres humanos e a natureza, munidos de ciência e segurança.
                           </p>
                       </div>
 
