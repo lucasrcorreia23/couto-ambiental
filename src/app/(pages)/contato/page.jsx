@@ -45,7 +45,7 @@ const Contact = () => {
                                 <ul className="mil-list mil-dark mil-up mil-mb-30">                                    
                                     <li>Timbó - SC, </li>
                                     <li>R. Belém, 272 - Das Capitais, </li>
-                                    <li>CEP 89120-000</li>
+                                    <li>CEP 89095-352</li>
                                 </ul>
                                 <ul className="mil-list mil-dark mil-up mil-mb-30">                                   
                                     <li>Belford Roxo - RJ, </li>                                   
