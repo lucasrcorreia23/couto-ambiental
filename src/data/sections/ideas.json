@@ -10,47 +10,56 @@
         {
             "icon": "/img/icons//barata.svg",
             "link": "",
-            "label": "Baratas"
+            "label": "Baratas",
+            "text": "Transmitem doenças e contaminam alimentos. Realizamos uma desinsetização segura para eliminar focos e proteger a saúde do seu ambiente."
         },
         {
             "icon": "/img/icons/rato.svg",
             "link": "",
-            "label": "Ratos"
+            "label": "Ratos",
+            "text": "Causam graves riscos sanitários e danos estruturais. Nossa desratização previne contaminações e impede a proliferação de forma segura."
         },
         {
             "icon": "/img/icons/formiga.svg",
             "link": "",
-            "label": "Formigas"
+            "label": "Formigas",
+            "text": "Espalham bactérias e podem danificar aparelhos. Aplicamos soluções precisas para inativar colônias sem riscos para sua família ou equipe."
         },
         {
             "icon": "/img/icons/aranha.svg",
             "link": "",
-            "label": "Aranhas"
+            "label": "Aranhas",
+            "text": "Trazem riscos de acidentes peçonhentos. Controlamos a proliferação com produtos regulamentados e aplicação especializada."
         },
         {
             "icon": "/img/icons/cupim.svg",
             "link": "",
-            "label": "Cupins"
+            "label": "Cupins",
+            "text": "Destroem móveis e o patrimônio de forma silenciosa. Aplicamos métodos precisos de descupinização para uma proteção duradoura."
         },
         {
             "icon": "/img/icons/pulga.svg",
             "link": "",
-            "label": "Pulgas"
+            "label": "Pulgas",
+            "text": "Causam alergias e incômodo extremo a humanos e animais. Interrompemos o ciclo de infestação para devolver o conforto ao seu espaço."
         },
         {
             "icon": "/img/icons/carrapato.svg",
             "link": "",
-            "label": "Carrapatos"
+            "label": "Carrapatos",
+            "text": "Vetores de doenças graves. Realizamos o controle com foco preventivo e seguro, protegendo sua família e seus pets."
         },
         {
             "icon": "/img/icons/morcego.svg",
             "link": "",
-            "label": "Morcegos"
+            "label": "Morcegos",
+            "text": "Espécies protegidas pelo Ibama. Realizamos o manejo ecológico e legal com técnicas de afastamento, respeitando as diretrizes de conservação."
         },
         {
             "icon": "/img/icons//pombo.svg",
             "link": "",
-            "label": "Pombos"
+            "label": "Pombos",
+            "text": "O manejo exige controle ético e legal. Utilizamos métodos não letais, como barreiras físicas e repelentes, para o afastamento responsável."
         }
     ]
 }

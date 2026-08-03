@@ -1,0 +1,94 @@
+{
+    "title": "Comprometidos com o Seu Bem-Estar",
+    "description": "Conheça os profissionais que transformam a nossa missão em realidade, atuando diariamente com responsabilidade para garantir ambientes mais seguros e saudáveis.",
+    "groups": [
+        {
+            "id": "lideranca",
+            "featured": true,
+            "columnClass": "col-6 col-md-5",
+            "members": [
+                {
+                    "name": "André Couto",
+                    "role": "CEO",
+                    "image": "/img/team/andre-couto.png"
+                },
+                {
+                    "name": "Tania Couto",
+                    "role": "Diretora Financeiro",
+                    "image": "/img/team/tania-couto.png"
+                }
+            ]
+        },
+        {
+            "id": "gestao-estrategica",
+            "featured": false,
+            "columnClass": "col-6 col-md-4",
+            "members": [
+                {
+                    "name": "Helena Valli",
+                    "role": "Química",
+                    "image": "/img/team/helena-valli.png"
+                },
+                {
+                    "name": "Gabriel Gesser",
+                    "role": "Comercial",
+                    "image": "/img/team/gabriel-gesser.png"
+                }
+            ]
+        },
+        {
+            "id": "administrativo",
+            "featured": false,
+            "columnClass": "col-6 col-md-4",
+            "members": [
+                {
+                    "name": "Debora Godói",
+                    "role": "Administrativo",
+                    "image": "/img/team/debora-godoi.png"
+                },
+                {
+                    "name": "Eduarda Duwe",
+                    "role": "Administrativo",
+                    "image": "/img/team/eduarda-duwe.png"
+                },
+                {
+                    "name": "Heloisa Roncalio",
+                    "role": "Administrativo",
+                    "image": "/img/team/heloisa-roncalio.png"
+                }
+            ]
+        },
+        {
+            "id": "operacional",
+            "featured": false,
+            "columnClass": "col-6 col-md-4",
+            "members": [
+                {
+                    "name": "Bruno Couto",
+                    "role": "Dedetizador",
+                    "image": "/img/team/bruno-couto.png"
+                },
+                {
+                    "name": "João Costa",
+                    "role": "Dedetizador",
+                    "image": "/img/team/joao-costa.png"
+                },
+                {
+                    "name": "José da Silva",
+                    "role": "Dedetizador",
+                    "image": "/img/team/jose-da-silva.png"
+                },
+                {
+                    "name": "Sandro de Lima",
+                    "role": "Dedetizador",
+                    "image": "/img/team/sandro-de-lima.png"
+                },
+                {
+                    "name": "Vanderlei Junior",
+                    "role": "Dedetizador",
+                    "image": "/img/team/vanderlei-junior.png"
+                }
+            ]
+        }
+    ]
+}

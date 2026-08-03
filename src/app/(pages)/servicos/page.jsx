@@ -51,7 +51,7 @@ async function Services() {
 
                       <div className="mil-center mil-mb-120">
                           <span className="mil-suptitle mil-upper mil-up mil-mb-30">Controle de pragas urbanas e higienização</span>
-                          <p className="mil-text-lg mil-up">Cuidar da saúde e segurança dos ambientes onde vivemos e trabalhamos é essencial. A Couto Saúde Ambiental oferece soluções completas em controle de pragas urbanas e higienização, com serviços especializados e profissionais qualificados. Com 25 anos de experiência, garantimos um ambiente livre de riscos para você, sua família e seu negócio.
+                          <p className="mil-text-lg mil-up">Cuidar da saúde e segurança dos ambientes onde vivemos e trabalhamos é essencial. A Couto Saúde Ambiental oferece soluções completas em controle de pragas urbanas e higienização, com serviços especializados e profissionais qualificados. Com 26 anos de experiência, garantimos um ambiente livre de riscos para você, sua família e seu negócio.
                           </p>
                       </div>
 
@@ -758,6 +758,57 @@ Proteja seus estofados contra manchas e sujeiras com a impermeabilização. Esse
             </div>
       </section>
       {/* features end 8 */}
+
+
+
+
+       {/* content 9 */}
+    <section>
+        <div id="nine" className="container mil-p-120-0">
+            <div className="mil-background-grid mil-softened" />
+
+            <div className="row justify-content-between align-items-center flex-sm-row-reverse">
+                <div className="col-lg-5">
+
+                    <div className="mil-mb-90">
+                        <span className="mil-suptitle mil-upper mil-up mil-mb-30">
+
+                          </span>
+                        <h2 className="mil-upper mil-up mil-mb-30">
+                        Desinsetização de Ônibus e Barcos de Pesca
+                          </h2>
+                        <p className="mil-up mil-mb-40" >
+
+                        Garanta a segurança a bordo com veículos e embarcações livres de baratas e percevejos. Nossa desinsetização especializada protege passageiros e tripulantes de forma limpa e sem cheiro, evitando frotas paradas e proporcionando rotinas de trabalho mais rentáveis e viagens mais seguras
+
+                          </p>
+                        <div className="mil-up">
+                            <Link href="/contato" className="mil-link mil-upper">
+                                Saiba mais
+                                <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span>
+                            </Link>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="col-lg-6">
+
+                    <div className="mil-illustration-slider-frame mil-up mil-mb-90">
+
+                                    <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
+                                        <div className="mil-image-frame">
+                                            <img src="/img/uploads/onibus-barco.png" alt="Ônibus e Barcos de Pesca" />
+                                        </div>
+                                    </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    {/* content end 9 */}
 
 
 

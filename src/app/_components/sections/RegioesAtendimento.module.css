@@ -1,0 +1,139 @@
+/* ------------------------------------------------------------------
+   Regiões de atendimento — arte do mapa (PNG do cliente) com áreas
+   de hover transparentes sobre cada pin
+   ------------------------------------------------------------------ */
+
+.mapWrapper {
+    position: relative;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.map {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* ---------------------------- pins ---------------------------- */
+
+/* área clicável ancorada na ponta do pin: left/top vêm do JSX em %,
+   medidos na própria imagem, então acompanham qualquer escala */
+.hotspot {
+    position: absolute;
+    transform: translate(-50%, -100%);
+    width: 5.5%;
+    height: 7%;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* o pin já vem desenhado no PNG; o halo é o retorno visual do hover */
+.halo {
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    width: 220%;
+    aspect-ratio: 1 / 1;
+    transform: translate(-50%, -50%) scale(0.4);
+    border-radius: 50%;
+    background-color: rgba(3, 200, 190, 0.35);
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.hotspot:hover .halo,
+.hotspot:focus-visible .halo,
+.hotspot.isActive .halo {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.hotspot:focus-visible {
+    outline: 2px solid #03c8be;
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+/* --------------------------- tooltip -------------------------- */
+
+.tooltip {
+    position: absolute;
+    z-index: 2;
+    transform: translate(-50%, -100%);
+    padding: 7px 14px;
+    border-radius: 40px;
+    background-color: #000831;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    pointer-events: none;
+    box-shadow: 0 8px 20px rgba(0, 8, 49, 0.18);
+}
+
+.tooltip::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
+    width: 8px;
+    height: 8px;
+    margin-left: -4px;
+    background-color: #000831;
+    transform: rotate(45deg);
+}
+
+/* ------------------- lista de estados (mobile) ---------------- */
+
+.stateList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 920px;
+    margin: 50px auto 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stateItem {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 18px;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.7);
+    transition: border-color 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+
+.stateUf {
+    font-weight: 600;
+    color: #03c8be;
+    transition: color 0.3s ease;
+}
+
+.stateItem:hover,
+.stateItem.isActive {
+    border-color: #03c8be;
+    background-color: rgba(3, 200, 190, 0.08);
+    color: #000831;
+}
+
+@media screen and (max-width: 992px) {
+    .stateList {
+        margin-top: 40px;
+    }
+
+    .stateItem {
+        padding: 7px 14px;
+        font-size: 12px;
+    }
+}

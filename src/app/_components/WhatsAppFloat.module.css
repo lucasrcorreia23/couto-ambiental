@@ -1,0 +1,46 @@
+/* Botão flutuante do WhatsApp
+   - canto inferior direito
+   - offset lateral de 20px para não encostar na .mil-progress-track (4px, fixed right: 0)
+   - offset inferior de 90px para ficar ACIMA do botão .scroll-to-top
+     (fixed, bottom: 20px / right: 20px / 50x50px, usado na página de serviços) */
+.float {
+    position: fixed;
+    right: 20px;
+    bottom: 90px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #25D366;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.float:hover,
+.float:focus {
+    background-color: #1da851;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.float:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 3px;
+}
+
+@media screen and (max-width: 992px) {
+    .float {
+        right: 16px;
+        bottom: 80px;
+        width: 52px;
+        height: 52px;
+        font-size: 28px;
+    }
+}

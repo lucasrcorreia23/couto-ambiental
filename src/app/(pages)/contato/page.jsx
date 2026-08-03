@@ -37,7 +37,7 @@ const Contact = () => {
 
                         <div className="mil-contact-sidebar">
 
-                            <img src="img/uploads/info-contato.png" alt="img" style={{"width": "100%", "height": "200px", "objectFit": "cover","border-radius":"4px"}} className="mil-mb-30" />
+                            <img src="/img/uploads/info-contato.png" alt="img" style={{"width": "100%", "height": "200px", "objectFit": "cover", "borderRadius": "4px"}} className="mil-mb-30" />
 
                             <div className="mil-sidebar-info">
 
@@ -45,19 +45,19 @@ const Contact = () => {
                                 <ul className="mil-list mil-dark mil-up mil-mb-30">                                    
                                     <li>Timbó - SC, </li>
                                     <li>R. Belém, 272 - Das Capitais, </li>
-                                    <li>CEP 89095-352</li>
+                                    <li>CEP 89120-000</li>
                                 </ul>
                                 <ul className="mil-list mil-dark mil-up mil-mb-30">                                   
                                     <li>Belford Roxo - RJ, </li>                                   
-                                    <li>R. Elza Matulevicius Gonçalves, 78 -<br></br> São Bernardo - RJ </li>                                   
+                                    <li>R. Elza Matulevicius Gonçalves, 78 -<br></br> Parque São Bernardo - RJ </li>
                                     <li>
                                     </li>                                   
                                     <li>CEP 26165-250 </li>                                   
                                 </ul>
                                 <h6 className="mil-upper mil-up mil-mb-30">WhatsApp</h6>
                                 <ul className="mil-list mil-dark mil-up mil-mb-30">                                  
-                                    <li class="mil-mb-10"><a class="mr-5"href="https://wa.me/554733990561">   <i className="fa-brands fa-whatsapp"> </i>  (47) 3399-0561</a></li>
-                                    <li class="mil-mb-10"><a class="mr-5"href="https://wa.me/5521999181341">   <i className="fa-brands fa-whatsapp"> </i>  (21)  99918-1341
+                                    <li className="mil-mb-10"><a href="https://wa.me/554733990561">   <i className="fa-brands fa-whatsapp"> </i>  (47) 3399-0561</a></li>
+                                    <li className="mil-mb-10"><a href="https://wa.me/5521999181341">   <i className="fa-brands fa-whatsapp"> </i>  (21)  99918-1341
                                     </a></li>
                                     
                                     

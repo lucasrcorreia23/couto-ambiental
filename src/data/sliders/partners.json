@@ -64,9 +64,17 @@
         {
             "image": "/img/partners/16.jpg",
             "alt": "bayer"
+        },
+        {
+            "image": "/img/partners/viacao-garcia.png",
+            "alt": "Viação Garcia"
+        },
+        {
+            "image": "/img/partners/brasil-sul.png",
+            "alt": "Brasil Sul"
         }
-        
-        
-        
+
+
+
     ]
 }

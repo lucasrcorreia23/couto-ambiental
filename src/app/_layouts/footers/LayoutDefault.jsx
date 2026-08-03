@@ -38,12 +38,18 @@ const DefaultFooter = () => {
                         <div className="col-md-6 col-lg-6 col-xl-6">
                             <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">Timbó - Santa Catarina, Brasil.
                             </span>
-                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">R. Belém, 272 - Das Capitais, <br></br>CEP 89095-352 <br/>(47) 3399-0561<br/>
+                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">R. Belém, 272 - Das Capitais, <br></br>CEP 89120-000 <br/>(47) 3399-0561<br/>
 
 
                             </p>
                         </div>
-                      
+                        <div className="col-md-6 col-lg-6 col-xl-6">
+                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">Belford Roxo - Rio de Janeiro, Brasil.
+                            </span>
+                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">R. Elza Matulevicius Gonçalves, 78 <br/>Parque São Bernardo <br/>CEP 26165-250<br/>
+                            </p>
+                        </div>
+
                     </div>
                 </div>
                 <div className="col-lg-4">

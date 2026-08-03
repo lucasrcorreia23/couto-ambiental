@@ -1,0 +1,19 @@
+{
+    "title": "REGIÕES DE ATENDIMENTO",
+    "description": "Confira no mapa as regiões atendidas pela Couto. Mantemos nossas equipes estrategicamente posicionadas para levar saúde e segurança ambiental até a sua empresa ou residência.",
+    "image": "/img/uploads/mapa-atuacao.png",
+    "mapLabel": "Mapa do Brasil com os estados atendidos pela Couto Saúde Ambiental: Pará, Bahia, Distrito Federal, Goiás, Minas Gerais, Espírito Santo, Rio de Janeiro, São Paulo, Paraná, Santa Catarina e Rio Grande do Sul",
+    "states": [
+        { "uf": "PA", "name": "Pará", "x": 53.13, "y": 29.69 },
+        { "uf": "BA", "name": "Bahia", "x": 79.64, "y": 46.98 },
+        { "uf": "DF", "name": "Distrito Federal", "x": 65.52, "y": 53.18 },
+        { "uf": "GO", "name": "Goiás", "x": 60.42, "y": 56.3 },
+        { "uf": "MG", "name": "Minas Gerais", "x": 72.29, "y": 61.88 },
+        { "uf": "ES", "name": "Espírito Santo", "x": 81.98, "y": 64.43 },
+        { "uf": "RJ", "name": "Rio de Janeiro", "x": 75.99, "y": 71.04 },
+        { "uf": "SP", "name": "São Paulo", "x": 63.44, "y": 72.19 },
+        { "uf": "PR", "name": "Paraná", "x": 55.47, "y": 75.36 },
+        { "uf": "SC", "name": "Santa Catarina", "x": 59.9, "y": 81.77 },
+        { "uf": "RS", "name": "Rio Grande do Sul", "x": 52.29, "y": 88.91 }
+    ]
+}

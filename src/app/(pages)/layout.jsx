@@ -1,5 +1,6 @@
 import Header from "@layouts/headers/Index";
 import Footer from "@layouts/footers/Index";
+import WhatsAppFloat from "@components/WhatsAppFloat";
 
 const PagesLayouts = ({
   children
@@ -15,6 +16,8 @@ const PagesLayouts = ({
         <Footer layout={"default"} />
       </div>
       {/* content */}
+
+      <WhatsAppFloat />
     </>
   );
 };

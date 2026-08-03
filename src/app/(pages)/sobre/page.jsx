@@ -9,6 +9,7 @@ import CallToActionTwoSection from "@components/sections/CallToActionTwo";
 import ContactInfoSection from "@components/sections/ContactInfo";
 import ServicesAbout from "@components/sections/ServicesAbout";
 import AboutTwoSection from "@components/sections/AboutTwo";
+import EquipeSection from "@components/sections/Equipe";
 
 
 import { getSortedServicesData } from "@library/services";
@@ -184,8 +185,10 @@ const About = () => {
           </div>
       </section>
       {/* services end */}
-      
-      <ServicesAbout /> 
+
+      <EquipeSection />
+
+      <ServicesAbout />
       
      
     </>

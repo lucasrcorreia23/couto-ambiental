@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React from "react";
 import dynamic from "next/dynamic";
 
 import AppData from "@data/app.json";
@@ -13,6 +13,7 @@ import ServicesTwoSection from "../_components/sections/ServicesTwo";
 import TestimonialrealSlider from "../_components/sliders/Testimonialdepoim";
 import AdvantagesSection from "@components/sections/Advantages";
 import LatestPostsSection from "@components/sections/LatestPosts";
+import RegioesAtendimentoSection from "@components/sections/RegioesAtendimento";
 
 const HeroTwoSlider = dynamic( () => import("@components/sliders/HeroTwo"), { ssr: false } );
 const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
@@ -39,10 +40,7 @@ async function Home3() {
       
       <ServicesTwoSection />
       
-
-<Suspense fallback={<div>Loading...</div>}>
-        <LatestPostsSection posts={posts} />
-      </Suspense>
+      <LatestPostsSection posts={posts} />
       <AdvantagesSection />
       <section>
           <div className="container mil-p-0-90">
@@ -157,6 +155,7 @@ async function Home3() {
               </div>
           </div>
       </section>
+      <RegioesAtendimentoSection />
      {/* <TestimonialrealSlider/> */}
       <ContactSection />    
            
